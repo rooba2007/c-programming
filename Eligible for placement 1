@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <string.h>
+int main() 
+{
+    char studentname[100];
+    int arrears;
+    int cpga;
+    scanf("%s%d%d",studentname,&arrears,&cpga);
+    printf("Name of the Student:%s\n",studentname);
+    if((arrears==1&&cpga>70)||((arrears==1||arrears==2)&&cpga>75))
+    {
+        printf("%s is Eligible for Placement\n",studentname);
+        
+    }
+    else
+    {
+        printf("%s is Not Eligible for Placement\n",studentname);
+    }    
+    return 0;
+}
+
+    
+
