@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<string.h>
+#include<math.h>
+#include<stdlib.h>
+ int main(){
+     int a=10;
+     int b=60;
+     int c=70;
+    if(!(a<b))
+        printf("a is largest then b\n");
+     if((a<b)||(a<b))
+         printf("c is largest then a and b");
+     return 0;
+ }
